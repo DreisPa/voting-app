@@ -7,14 +7,19 @@
     <title>сайт</title>
 </head>
 <body>
-    <table style="background-color:33475">
-    <img scr ="gay.jpg" alt="не загрузилась">
-    <h1>вы согласны с этим утверждением?</h1>
-    <button id="yesButton">Да</button>
-    <button id="noButton">Нет</button>
-    <h2>Результаты:</h2>
-    <p>Да: <span id="yesVotes">0</span></p>
-    <p>Нет: <span id="noVotes">0</span></p>
+    <table style="background-color: #33475;">
+        <tr>
+            <td>
+                <img src="gay.jpg" alt="не загрузилась">
+                <h1>вы согласны с этим утверждением?</h1>
+                <button id="yesButton">Да</button>
+                <button id="noButton">Нет</button>
+                <h2>Результаты:</h2>
+                <p>Да: <span id="yesVotes">0</span></p>
+                <p>Нет: <span id="noVotes">0</span></p>
+            </td>
+        </tr>
+    </table>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
